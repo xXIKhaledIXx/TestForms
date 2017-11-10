@@ -1,0 +1,15 @@
+name: "TestForms"
+main: TestForms\Loader
+api: "3.0.0-ALPHA9"
+version: "1.0"
+author: "I Am ScRay ^-^"
+
+commands:
+    test:
+        permission: testforms.cmd
+        usage: "/test"
+        description: "Тестовая форма"
+
+permissions:
+    testforms.cmd:
+        default: true
